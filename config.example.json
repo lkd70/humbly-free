@@ -1,0 +1,27 @@
+{
+    "humblebundle": {
+        "game_count": 20
+    },
+    "message": {
+        "button": true,
+        "custom_reply_markup": {},
+        "disable_notification": true,
+        "disable_web_page_preview": false,
+        "parse_mode": "html",
+        "text": "<a href='{link}'>{human_name}</a> is now available for free!\nExpires: {expires}"
+    },
+    "redis": {
+        "active": true,
+        "connection": {
+            "db": 1,
+            "family": 4,
+            "host": "127.0.0.1",
+            "password": "",
+            "port": "6379"
+        }
+    },
+    "telegram": {
+        "chat_id": -1000000000000,
+        "token": "10000000:AbCdEfGhIjKlMnOpQrStUvWxYz9876543210"
+    }
+}

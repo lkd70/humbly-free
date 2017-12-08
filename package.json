@@ -1,0 +1,33 @@
+{
+  "name": "humbly-free",
+  "version": "1.0.0",
+  "description": "Bot that posts free HumbleBundle games to a Telegram channel",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lkd70/humbly-free.git"
+  },
+  "keywords": [
+    "Telegram",
+    "Bot",
+    "Channel",
+    "HumbleBundle",
+    "Free",
+    "LKD70"
+  ],
+  "author": "LKD70",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/lkd70/humbly-free/issues"
+  },
+  "homepage": "https://github.com/lkd70/humbly-free#readme",
+  "dependencies": {
+    "ioredis": "^3.2.2",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "string-format": "^0.5.0"
+  }
+}
