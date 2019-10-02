@@ -6,7 +6,7 @@ const
 
 format.extend(String.prototype)
 
-var config = process.argv[2] || __dirname + '\\config.json'
+let config = process.argv[2] || __dirname + '\\config.json'
 try {
     config = require(config)
 } catch (e) {
@@ -14,7 +14,7 @@ try {
     process.exit()
 }
 
-var options = {
+const options = {
     uri: 'https://www.humblebundle.com/store/api/search',
     qs: {
         sort: "discount",
@@ -54,7 +54,7 @@ request(options)
     })
 
 async function send(game) {
-    let options = {
+    const options = {
         uri: "https://api.telegram.org/bot" + config.telegram.token + "/sendMessage",
         qs: {
             chat_id: config.telegram.chat_id,
